@@ -22,17 +22,10 @@ a {
     text-decoration: none;
 }
 
-main {
-    /* background-color: #ebde98; */
-    /* padding: 20px; */
-}
-
 header {
     /* position: fixed; */
     display: block;
 }
-
-nav li.menu-item {}
 
 li.menu-item a {
     padding: 5px 10px;
@@ -47,7 +40,7 @@ nav.navbar {
 }
 
 section#intro {
-    height: 100vh;
+    height: 70vh;
 }
 
 .container {
@@ -65,9 +58,20 @@ img#profile-img {
 
 div#profile-container {
     background-color: #eeebef;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-div#intro-content {
+div#intro-content{
+    padding:20px;
+}
+div#intro-content article{
+    width: 80%;
+    margin: auto;
+}
+
+section#intro {
     background-color: #ebde98;
     vertical-align: middle;
 }
@@ -79,6 +83,11 @@ section#experience {
 
 .card {
     display: flex;
+    margin-bottom: 20px;
+}
+.card-image{
+    display: flex;
+    align-items: center;
 }
 
 .card-image img {
@@ -132,6 +141,8 @@ section#contact {
 
 .portfolio-card .card-content {
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 footer{
     text-align: center;
@@ -142,4 +153,26 @@ footer{
 }
 footer a{
     color: #bb6150;
+}
+.h-100{
+    height: 100%;
+}
+
+li.menu-item a:hover, li.menu-item a.active {
+    border-bottom: solid 3px #BB6150;
+    color: #BB6150;
+}
+.t-center{
+    text-align: center;
+}
+.highlight{
+    color: #BB6150;
+}
+img.icon {
+    width: 32px !important;
+    margin: 5px;
+}
+img.icon-sm{
+    width: 16px !important;
+    margin: 5px;
 }

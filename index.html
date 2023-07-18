@@ -2,64 +2,72 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ermias Haileyesus - Personal Profile</title>
+  <meta name="description" content="My personal profile website.">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
   <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 
 <body>
   <main>
-    <header role="banner">
-      <nav class="navbar">
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#intro">Home</a>
-          </li>
-          <li class="menu-item">
-            <a href="experience">Experience</a>
-          </li>
-          <li class="menu-item">
-            <a href="projects">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Activities</a>
-          </li>
-          <li class="menu-item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
     <section id="intro">
-      <div class="container d-flex">
-        <div id="profile-container" class="col-lg-3">
-          <img id="profile-img" src="assets/images/profile.jpg" />
-          <ul class="social-list">
-            <li>
-              <a href="#" target="_blank"><i></i></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"><i></i></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"><i></i></a>
-            </li>
-          </ul>
+      <div class="d-flex h-100">
+        <div id="profile-container" class="t-center">
+          <div>
+            <img id="profile-img" src="assets/images/profile.jpg" /><br />
+            <ul class="social-list">
+              <li>
+                <a href="https://www.linkedin.com/in/ermias-haileyesus-23455768" target="_blank"><img src="assets/images/linkedin.svg" class="icon" /></i></a>
+              </li>
+              <li>
+                <a href="mailto:airmax.7@gmail.com" target="_blank"><img src="assets/images/square-envelope-solid.svg" class="icon" /></a>
+              </li>
+              <li>
+                <a href="https://t.me/airmax_7" target="_blank"><img src="assets/images/telegram.svg" class="icon" /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div id="intro-content" class="col-lg-9">
-          <em>Hi!</em><br />
-          <h2>I'm Ermias, a Web Developer</h2>
-          <p>
-            Experienced in web application development technologies. My area
-            of expertise is backend development with the .NET and Microsoft
-            Azure tech stack.
-          </p>
+        <div id="intro-content">
+          <header role="banner">
+            <nav class="navbar">
+              <ul class="menu">
+                <li class="menu-item">
+                  <a href="#intro" class="active">Home</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#experience">Experience</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#projects">Portfolio</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#">Activities</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <article>
+            <em>Hi!</em><br />
+            <h2>I'm Ermias, a Web Developer</h2>
+            <h3>
+              Experienced in web application development technologies. My area
+              of expertise is <b class="highlight">backend development</b> with the <b class="highlight">.NET and
+                Microsoft
+                Azure</b> tech stack.
+            </h3>
+          </article>
         </div>
       </div>
     </section>
     <section id="experience">
       <div class="container">
-        <h1>Experience</h1>
+        <h1 class="t-center">Experience</h1>
         <div class="card experience-card">
           <div class="card-image">
             <img src="assets/images/mmcytech.png" />
@@ -131,9 +139,9 @@
             </div>
           </div>
         </div>
-        <div>
-          <div><img src="" /></div>
-          <div>
+        <div class="card experience-card">
+          <div class="card-image"><img src="assets/images/no-image.jpg" /></div>
+          <div class="card-content">
             <h2>
               Senior Developer & Product Manager
               <i>@A-taker Software Development PLC</i>
@@ -161,29 +169,37 @@
         <div class="card portfolio-card">
           <img src="assets/images/yenepay-preview.png" />
           <div class="card-content">
-            <span>YenePay Financial Technologies PLC - official site</span>
-            <a href="https://www.yenepay.com/" target="_blank">www.yenepay.com <i></i></a>
+            <div>
+              <span>YenePay Financial Technologies PLC - official site</span>
+              <a href="https://www.yenepay.com/" target="_blank">www.yenepay.com <img src="assets/images/arrow-up-right-from-square-solid.svg" class="icon-sm" /></a>
+            </div>
           </div>
         </div>
         <div class="card portfolio-card">
           <img src="assets/images/yenestore-preview.png" />
           <div class="card-content">
-            <span>YeneStore E-commerce site</span>
-            <a href="https://store.yenepay.com/" target="_blank">store.yenepay.com <i></i></a>
+            <div>
+              <span>YeneStore E-commerce site</span>
+              <a href="https://store.yenepay.com/" target="_blank">store.yenepay.com <img src="assets/images/arrow-up-right-from-square-solid.svg" class="icon-sm" /></a>
+            </div>
           </div>
         </div>
         <div class="card portfolio-card">
           <img src="assets/images/hasnet-preview.png" />
           <div class="card-content">
-            <span>Hasnet Engineering PLC - official site</span>
-            <a href="https://www.hasneteng.com/" target="_blank">www.hasneteng.com <i></i></a>
+            <div>
+              <span>Hasnet Engineering PLC - official site</span>
+              <a href="https://www.hasneteng.com/" target="_blank">www.hasneteng.com <img src="assets/images/arrow-up-right-from-square-solid.svg" class="icon-sm" /></a>
+            </div>
           </div>
         </div>
         <div class="card portfolio-card">
           <img src="assets/images/ifes-preview.png" />
           <div class="card-content">
-            <span>Interest Free Finance & Economy Summit Event site</span>
-            <a href="https://www.ifes-ethiopia.com/" target="_blank">www.ifes-ethiopia.com <i></i></a>
+            <div>
+              <span>Interest Free Finance & Economy Summit Event site</span>
+              <a href="https://www.ifes-ethiopia.com/" target="_blank">www.ifes-ethiopia.com <img src="assets/images/arrow-up-right-from-square-solid.svg" class="icon-sm" /></a>
+            </div>
           </div>
         </div>
       </div>
