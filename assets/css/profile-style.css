@@ -1,0 +1,24 @@
+#navbar{
+  background-color: #be3144;
+  color: white;
+  padding: 5px;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#navbar li{
+  list-style: none;
+}
+#navbar li a{
+  text-decoration: none;
+  color: white;
+}
+#welcome-section{
+  height: 100vh;
+  background-color: #303841;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
