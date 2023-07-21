@@ -80,6 +80,9 @@ section#experience {
     background-color: #195e85;
     color: white;
 }
+ul.social-list{
+    padding: 0;
+}
 
 .card {
     display: flex;
@@ -175,4 +178,63 @@ img.icon {
 img.icon-sm{
     width: 16px !important;
     margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        display: block !important;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .card-image, .card-content{
+        display: block !important;
+    }
+    .card.portfolio-card img{
+        width: 100% !important;
+    }
+    section#intro{
+        height: auto !important;
+    }
+    .intro-content-container{
+        display: block;
+    }
+    .intro-content-container{
+        margin-top: 60px;
+    }
+    div#profile-container{
+        padding: 20px;
+    }
+    header{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        background-color: white;
+    }
+    .navbar{
+        text-align: center;
+        padding: 0 !important;
+    }
+    .menu{
+        padding:0;
+    }
+    li.menu-item a{
+        font-size: 0.8rem;
+    }
+    .pill-container{
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:425px){
+    img.icon{ 
+        width: 20px !important;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    h3{
+        font-size: 1em;
+    }
 }
